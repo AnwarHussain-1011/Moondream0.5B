@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node modules
+node_modules/
+
+# Large datasets / model folders
+attenregdeeplab/
+blip/
+
+# Execution outputs
+outputs/
+output/
+results/
+runs/
+logs/
+*.out
+
+# Secrets / passwords / keys
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.json
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+*~
